@@ -11,9 +11,15 @@ The practice about the communication between Rails App
 
 1. jerry_app
 
+listen: 127.0.0.1:9001
+
 2. tom_app
 
+listen: 127.0.0.1:9001
+
 No `databases.yml` file, if you need it, create and config it by yourself.
+
+It needs `redis` software environment.
 
 ### Three examples of communication between Rails app.
 
