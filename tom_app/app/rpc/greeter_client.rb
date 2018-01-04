@@ -4,7 +4,7 @@ class GreeterClient
     puts "say_hello: #{name}"
 
     options = {
-      hostname: '127.0.0.1:9003',
+      # hostname: '127.0.0.1:9003',
       username: 'admin',
       password: 'admin'
     }
