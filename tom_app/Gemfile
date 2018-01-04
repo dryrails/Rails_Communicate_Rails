@@ -9,7 +9,6 @@ gem 'sidekiq'
 gem 'redis', '3.3.5'
 gem 'redis-namespace', '1.5.3'
 gem 'typhoeus'
-gem 'grpc'
 gem 'gruf'
 
 group :development do

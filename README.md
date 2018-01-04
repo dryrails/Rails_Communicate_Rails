@@ -5,7 +5,7 @@ The practice about the communication between Rails App
 ### Development environment:
 
 + Rails 5.1.4
-+ Ruby 2.5.0
++ Ruby 2.3.3
 
 ### Two Rails App:
 
@@ -21,13 +21,18 @@ No `databases.yml` file, if you need it, create and config it by yourself.
 
 It needs `redis` software environment.
 
+[gem gruf](https://github.com/bigcommerce/gruf)
+
+listen: 127.0.0.1:9003
+
 ### Three examples of communication between Rails app.
 
 1. API
 
 2. Sidekiq
 
-3. gRPC
+3. gRPC (require ruby version < 2.5)
+
 
 ### Other
 
