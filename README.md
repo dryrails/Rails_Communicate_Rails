@@ -15,11 +15,13 @@ listen: 127.0.0.1:9001
 
 2. tom_app
 
-listen: 127.0.0.1:9001
+listen: 127.0.0.1:9002
 
 No `databases.yml` file, if you need it, create and config it by yourself.
 
 It needs `redis` software environment.
+
+gRPC example: you are better to install `grpc` and `protocol buffers` environment.
 
 [gem gruf](https://github.com/bigcommerce/gruf)
 

@@ -8,6 +8,7 @@ gem 'puma', '~> 3.7'
 gem 'sidekiq'
 gem 'redis', '3.3.5'
 gem 'redis-namespace', '1.5.3'
+gem 'grpc-tools'
 gem 'gruf'
 
 group :development do

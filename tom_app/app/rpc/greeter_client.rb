@@ -10,11 +10,11 @@ class GreeterClient
     }
 
     begin
-      client = ::Gruf::Client.new(service: ::Greeter::Hello, options: options)
+      client = ::Gruf::Client.new(service: ::Helloworld::Helloworld, options: options)
 
       response = client.call(:SayHello, name: name)
       puts "+"*30
-      puts response.message.message # Greeter::HelloReply instance
+      puts response.message.message # Helloworld::HelloReply instance
     rescue Gruf::Client::Error => e
       puts e.error.inspect
     end
