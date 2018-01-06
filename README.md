@@ -25,6 +25,8 @@ It needs `redis` software environment.
 
 listen: 127.0.0.1:9003
 
+bundle exec gruf
+
 ### Three examples of communication between Rails app.
 
 1. API
